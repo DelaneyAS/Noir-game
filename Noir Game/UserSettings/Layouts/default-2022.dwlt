@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 97
+  controlID: 100
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 504
     height: 1307.3334
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -356,7 +356,7 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/_myAssets/Scenes
+    - Assets/fbx
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -364,31 +364,31 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_myAssets/Scenes
+  - Assets/fbx
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\delan_5ovai3v\OneDrive\Documents\GitHub\Noir-game\Noir
     Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 23.666626}
-    m_SelectedIDs: 666d0000
-    m_LastClickedID: 28006
-    m_ExpandedIDs: 00000000f26c00004e6d00005a6d0000666d0000e0c9000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 0a7e0000
+    m_LastClickedID: 32266
+    m_ExpandedIDs: 000000002e7c0000307c0000327c0000147e0000a280000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scenes
-      m_OriginalName: Scenes
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 27990
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -402,7 +402,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f26c0000
+    m_ExpandedIDs: 000000002e7c0000307c0000327c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -541,10 +541,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1ece0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 803affffde3dffff1640ffffe240fffffefaffff
+      scrollPos: {x: 0, y: 196}
+      m_SelectedIDs: 2a84ffff
+      m_LastClickedID: -31702
+      m_ExpandedIDs: 34c5ffffc6d1ffff1ed7ffffaad9ffffc6faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -879,11 +879,11 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 48, y: 10}
+      snapOffset: {x: 48, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
-      index: 10
+      index: 13
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -989,9 +989,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.682078, y: 3.421764, z: -7.118618}
+    m_Target: {x: 11.420661, y: 4.54563, z: -8.267418}
     speed: 2
-    m_Value: {x: 8.682078, y: 3.421764, z: -7.118618}
+    m_Value: {x: 11.420661, y: 4.54563, z: -8.267418}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1037,13 +1037,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.04561996, y: -0.9358954, z: 0.32403308, w: 0.13167885}
+    m_Target: {x: -0.36005187, y: -0.1344805, z: 0.052468047, w: -0.92194456}
     speed: 2
-    m_Value: {x: 0.045612708, y: -0.93574655, z: 0.32398155, w: 0.13165791}
+    m_Value: {x: -0.35996962, y: -0.13444978, z: 0.05245606, w: -0.9217339}
   m_Size:
-    m_Target: 2.9980435
+    m_Target: 0.89644563
     speed: 2
-    m_Value: 2.9980435
+    m_Value: 0.89644563
   m_Ortho:
     m_Target: 0
     speed: 2
