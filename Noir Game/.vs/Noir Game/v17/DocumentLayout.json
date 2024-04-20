@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\",
+  "WorkspaceRootPath": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|c:\\users\\studentorinstructor\\desktop\\ga255\\group project\\noir-game\\noir game\\assets\\starterassets\\firstpersoncontroller\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|c:\\users\\delan_5ovai3v\\onedrive\\documents\\github\\noir-game\\noir game\\assets\\dialogueeditor\\assets\\scripts\\ui\\conversationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\dialogueeditor\\assets\\scripts\\ui\\conversationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|c:\\users\\delan_5ovai3v\\onedrive\\documents\\github\\noir-game\\noir game\\assets\\dialogueeditor\\assets\\scripts\\npcconversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\dialogueeditor\\assets\\scripts\\npcconversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\conversation1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\conversation1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\starterassets\\firstpersoncontroller\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\starterassets\\firstpersoncontroller\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +31,57 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ConversationManager.cs",
+              "DocumentMoniker": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\DialogueEditor\\Assets\\Scripts\\UI\\ConversationManager.cs",
+              "RelativeDocumentMoniker": "Assets\\DialogueEditor\\Assets\\Scripts\\UI\\ConversationManager.cs",
+              "ToolTip": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\DialogueEditor\\Assets\\Scripts\\UI\\ConversationManager.cs",
+              "RelativeToolTip": "Assets\\DialogueEditor\\Assets\\Scripts\\UI\\ConversationManager.cs",
+              "ViewState": "AQIAADEDAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T21:38:33.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NPCConversation.cs",
+              "DocumentMoniker": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\DialogueEditor\\Assets\\Scripts\\NPCConversation.cs",
+              "RelativeDocumentMoniker": "Assets\\DialogueEditor\\Assets\\Scripts\\NPCConversation.cs",
+              "ToolTip": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\DialogueEditor\\Assets\\Scripts\\NPCConversation.cs",
+              "RelativeToolTip": "Assets\\DialogueEditor\\Assets\\Scripts\\NPCConversation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T20:12:27.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "conversation1.cs",
+              "DocumentMoniker": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\conversation1.cs",
+              "RelativeDocumentMoniker": "Assets\\conversation1.cs",
+              "ToolTip": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\conversation1.cs",
+              "RelativeToolTip": "Assets\\conversation1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T19:24:08.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FirstPersonController.cs",
-              "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
+              "DocumentMoniker": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
               "RelativeDocumentMoniker": "Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
-              "ToolTip": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
+              "ToolTip": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
               "RelativeToolTip": "Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T19:52:51.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T19:52:51.474Z"
             }
           ]
         }
