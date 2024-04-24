@@ -1,26 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\",
+  "WorkspaceRootPath": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|c:\\users\\studentorinstructor\\desktop\\ga255\\group project\\noir-game\\noir game\\assets\\myscripts\\c#\\toggleobjecttrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\c#\\toggleobjecttrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|c:\\users\\delan\\onedrive\\documents\\github\\noir-game\\noir game\\assets\\_myassets\\scripts\\doors\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\doors\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|c:\\users\\studentorinstructor\\desktop\\ga255\\group project\\noir-game\\noir game\\assets\\_myassets\\scripts\\scriptableobjects\\objects\\animationeventtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\scriptableobjects\\objects\\animationeventtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\leviathain\\script\\active dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\leviathain\\script\\active dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\myscripts\\c#\\animationcollisioncheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\c#\\animationcollisioncheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\_myassets\\scripts\\doors\\playerraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\doors\\playerraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\myscripts\\nextdialouge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\nextdialouge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\starterassets\\inputsystem\\starterassetsinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\starterassets\\inputsystem\\starterassetsinputs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\npc\\npcscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|c:\\users\\delan\\onedrive\\documents\\github\\noir-game\\noir game\\assets\\_myassets\\scripts\\doors\\clickabledoors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\doors\\clickabledoors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\starterassets\\firstpersoncontroller\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\starterassets\\firstpersoncontroller\\scripts\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\leviathain\\script\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\leviathain\\script\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\npc\\npcscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\npc\\npcscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\MyScripts\\NextDialouge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:Assets\\MyScripts\\NextDialouge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,60 +51,112 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ToggleObjectTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\MyScripts\\C#\\ToggleObjectTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\MyScripts\\C#\\ToggleObjectTrigger.cs",
-              "ToolTip": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\MyScripts\\C#\\ToggleObjectTrigger.cs",
-              "RelativeToolTip": "Assets\\MyScripts\\C#\\ToggleObjectTrigger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UIController.cs",
+              "DocumentMoniker": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Doors\\UIController.cs",
+              "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\Doors\\UIController.cs",
+              "ToolTip": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Doors\\UIController.cs",
+              "RelativeToolTip": "Assets\\_myAssets\\scripts\\Doors\\UIController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:41:14.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AnimationEventTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\ScriptableObjects\\Objects\\AnimationEventTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\ScriptableObjects\\Objects\\AnimationEventTrigger.cs",
-              "ToolTip": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\ScriptableObjects\\Objects\\AnimationEventTrigger.cs",
-              "RelativeToolTip": "Assets\\_myAssets\\scripts\\ScriptableObjects\\Objects\\AnimationEventTrigger.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:21:01.505Z",
+              "WhenOpened": "2024-04-24T03:51:50.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AnimationCollisionCheck.cs",
-              "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\MyScripts\\C#\\AnimationCollisionCheck.cs",
-              "RelativeDocumentMoniker": "Assets\\MyScripts\\C#\\AnimationCollisionCheck.cs",
-              "ToolTip": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\MyScripts\\C#\\AnimationCollisionCheck.cs",
-              "RelativeToolTip": "Assets\\MyScripts\\C#\\AnimationCollisionCheck.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "PlayerRaycast.cs",
+              "DocumentMoniker": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Doors\\PlayerRaycast.cs",
+              "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\Doors\\PlayerRaycast.cs",
+              "ToolTip": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Doors\\PlayerRaycast.cs",
+              "RelativeToolTip": "Assets\\_myAssets\\scripts\\Doors\\PlayerRaycast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T20:33:20.981Z"
+              "WhenOpened": "2024-04-24T03:28:51.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StarterAssetsInputs.cs",
+              "DocumentMoniker": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
+              "RelativeDocumentMoniker": "Assets\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
+              "ToolTip": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
+              "RelativeToolTip": "Assets\\StarterAssets\\InputSystem\\StarterAssetsInputs.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:27:49.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FirstPersonController.cs",
+              "DocumentMoniker": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
+              "RelativeDocumentMoniker": "Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
+              "ToolTip": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
+              "RelativeToolTip": "Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAD4v+gAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:27:11.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ClickableDoors.cs",
+              "DocumentMoniker": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Doors\\ClickableDoors.cs",
+              "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\Doors\\ClickableDoors.cs",
+              "ToolTip": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Doors\\ClickableDoors.cs",
+              "RelativeToolTip": "Assets\\_myAssets\\scripts\\Doors\\ClickableDoors.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T03:25:03.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Active Dialogue.cs",
+              "DocumentMoniker": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\Leviathain\\Script\\Active Dialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Leviathain\\Script\\Active Dialogue.cs",
+              "ToolTip": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\Leviathain\\Script\\Active Dialogue.cs",
+              "RelativeToolTip": "Assets\\Leviathain\\Script\\Active Dialogue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T02:14:29.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dialogue.cs",
+              "DocumentMoniker": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\Leviathain\\Script\\Dialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Leviathain\\Script\\Dialogue.cs",
+              "ToolTip": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\Leviathain\\Script\\Dialogue.cs",
+              "RelativeToolTip": "Assets\\Leviathain\\Script\\Dialogue.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T02:01:23.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "NPCSCRIPT.cs",
-              "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\NPC\\NPCSCRIPT.cs",
+              "DocumentMoniker": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\NPC\\NPCSCRIPT.cs",
               "RelativeDocumentMoniker": "Assets\\NPC\\NPCSCRIPT.cs",
-              "ToolTip": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\NPC\\NPCSCRIPT.cs",
+              "ToolTip": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\NPC\\NPCSCRIPT.cs",
               "RelativeToolTip": "Assets\\NPC\\NPCSCRIPT.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T02:34:21.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "NextDialouge.cs",
-              "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\MyScripts\\NextDialouge.cs",
+              "DocumentMoniker": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\MyScripts\\NextDialouge.cs",
               "RelativeDocumentMoniker": "Assets\\MyScripts\\NextDialouge.cs",
-              "ToolTip": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\MyScripts\\NextDialouge.cs",
+              "ToolTip": "C:\\Users\\delan\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\MyScripts\\NextDialouge.cs",
               "RelativeToolTip": "Assets\\MyScripts\\NextDialouge.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
