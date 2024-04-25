@@ -21,6 +21,7 @@ public class Dialogue : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+       
         GetComponent<Collider>().enabled = false;
 
         panel.SetActive(true);
@@ -31,16 +32,19 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (panel.activeInHierarchy == true)
         {
-            if (textComponent.text == lines[index])
+            if (Input.GetMouseButtonDown(0))
             {
-                NextLine();
-            }
-            else
-            {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
+                if (textComponent.text == lines[index])
+                {
+                    NextLine();
+                }
+                else
+                {
+                    StopAllCoroutines();
+                    textComponent.text = lines[index];
+                }
             }
         }
     }
