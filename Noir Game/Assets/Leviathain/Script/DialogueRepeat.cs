@@ -1,10 +1,9 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Dialogue : MonoBehaviour
+public class DialogueRepeat : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
@@ -28,7 +27,7 @@ public class Dialogue : MonoBehaviour
         panel.SetActive(true);
 
         textComponent.text = string.Empty;
-        StartDialogue();
+        StartDialogueRepeat();
     }
 
     void Update()
@@ -50,7 +49,7 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    void StartDialogue()
+    void StartDialogueRepeat()
     {
         index = 0;
         StartCoroutine(TypeLine());
@@ -76,6 +75,7 @@ public class Dialogue : MonoBehaviour
         else
         {
             panel.SetActive(false);
+            GetComponent<Collider>().enabled = true;
         }
     }
 }

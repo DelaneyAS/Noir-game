@@ -85,6 +85,7 @@
     <Compile Include="Assets\_myAssets\scripts\ScriptableObjects\Collectible.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Leviathain\Script\DialogueRepeat.cs" />
     <Compile Include="Assets\_myAssets\scripts\Doors\PlayerRaycast.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\_myAssets\scripts\ScriptableObjects\CollectedItems.cs" />
