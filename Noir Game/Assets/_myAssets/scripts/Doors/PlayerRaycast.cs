@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using StarterAssets;
@@ -6,6 +7,10 @@ using UnityEngine;
 public class PlayerRaycast : MonoBehaviour
 {
     // Start is called before the first frame update
+    readonly bool Test1 = ClickableDoors.target1interact;
+    readonly bool Test2 = ClickableDoors.target2interact;
+    readonly bool Test3 = ClickableDoors.target3interact;
+    
     public float _distance = 5f;
     public FirstPersonController player;
     // Update is called once per frame
@@ -17,15 +22,16 @@ public class PlayerRaycast : MonoBehaviour
         {
             if (hit.collider.tag == "Door"  && Input.GetKeyDown(KeyCode.Mouse0))
             {
-                UIController.Instance.FadeIN();
-                ClickableDoors door = hit.collider.GetComponent<ClickableDoors>();
-                player.enabled = false;
-                door.MovePlayer(player);
+                if (Test1 == true && Test2 == true && Test3 == true)
+                {
+                    UIController.Instance.FadeIN();
+                    ClickableDoors door = hit.collider.GetComponent<ClickableDoors>();
+                    player.enabled = false;
+                    door.MovePlayer(player);
+                }
+                
             }
-            
-
         }
-
         Debug.DrawRay(this.transform.position, transform.forward * _distance, Color.red);
     }
 

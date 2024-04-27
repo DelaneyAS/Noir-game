@@ -122,6 +122,7 @@
     <Compile Include="Assets\_myAssets\scripts\Managers\ListManager.cs" />
     <Compile Include="Assets\_myAssets\scripts\Managers\GameOverManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Leviathain\Script\DoorOpen.cs" />
     <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\FirstPersonController.cs" />
