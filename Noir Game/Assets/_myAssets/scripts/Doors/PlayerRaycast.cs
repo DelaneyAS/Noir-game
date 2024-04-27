@@ -22,6 +22,9 @@ public class PlayerRaycast : MonoBehaviour
         {
             if (hit.collider.tag == "Door"  && Input.GetKeyDown(KeyCode.Mouse0))
             {
+
+
+
                 if (Test1 == true && Test2 == true && Test3 == true)
                 {
                     UIController.Instance.FadeIN();
