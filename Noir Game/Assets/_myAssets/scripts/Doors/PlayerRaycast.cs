@@ -20,19 +20,12 @@ public class PlayerRaycast : MonoBehaviour
 
         Physics.Raycast(this.transform.position, transform.forward * _distance, out hit);
         {
-            if (hit.collider.tag == "Door"  && Input.GetKeyDown(KeyCode.Mouse0))
+            if (hit.collider.CompareTag("Door") && Input.GetKeyDown(KeyCode.Mouse0) && Test1 == true && Test2 == true && Test3 == true)
             {
-
-
-
-                if (Test1 == true && Test2 == true && Test3 == true)
-                {
-                    UIController.Instance.FadeIN();
-                    ClickableDoors door = hit.collider.GetComponent<ClickableDoors>();
-                    player.enabled = false;
-                    door.MovePlayer(player);
-                }
-                
+                UIController.Instance.FadeIN();
+                ClickableDoors door = hit.collider.GetComponent<ClickableDoors>();
+                player.enabled = false;
+                door.MovePlayer(player);
             }
         }
         Debug.DrawRay(this.transform.position, transform.forward * _distance, Color.red);
