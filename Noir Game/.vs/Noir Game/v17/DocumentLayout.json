@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\leviathain\\script\\dooropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|c:\\users\\delan_5ovai3v\\onedrive\\documents\\github\\noir-game\\noir game\\assets\\_myassets\\scripts\\ending\\endingcutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\ending\\endingcutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\leviathain\\script\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\leviathain\\script\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|c:\\users\\delan_5ovai3v\\onedrive\\documents\\github\\noir-game\\noir game\\assets\\leviathain\\script\\dooropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\leviathain\\script\\dooropen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\_myassets\\scripts\\doors\\playerraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\doors\\playerraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\leviathain\\script\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\leviathain\\script\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\assets\\leviathain\\script\\dialoguerepeat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EndingCutscene.cs",
+              "DocumentMoniker": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Ending\\EndingCutscene.cs",
+              "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\Ending\\EndingCutscene.cs",
+              "ToolTip": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Ending\\EndingCutscene.cs",
+              "RelativeToolTip": "Assets\\_myAssets\\scripts\\Ending\\EndingCutscene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T06:16:10.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DoorOpen.cs",
               "DocumentMoniker": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\Leviathain\\Script\\DoorOpen.cs",
               "RelativeDocumentMoniker": "Assets\\Leviathain\\Script\\DoorOpen.cs",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FirstPersonController.cs",
               "DocumentMoniker": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
               "RelativeDocumentMoniker": "Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
@@ -59,12 +76,11 @@
               "RelativeToolTip": "Assets\\StarterAssets\\FirstPersonController\\Scripts\\FirstPersonController.cs",
               "ViewState": "AQIAAOcAAAAAAAAAAAAIwAQBAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T01:32:43.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T01:32:43.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PlayerRaycast.cs",
               "DocumentMoniker": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Doors\\PlayerRaycast.cs",
               "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\Doors\\PlayerRaycast.cs",
@@ -76,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DialogueRepeat.cs",
               "DocumentMoniker": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\Leviathain\\Script\\DialogueRepeat.cs",
               "RelativeDocumentMoniker": "Assets\\Leviathain\\Script\\DialogueRepeat.cs",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ClickableDoors.cs",
               "DocumentMoniker": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Doors\\ClickableDoors.cs",
               "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\Doors\\ClickableDoors.cs",
@@ -97,18 +113,40 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T03:25:03.048Z"
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "3eac3eed-be95-4327-bb3e-95aaf0b6b30c",
+        "Display": 1,
+        "X": 1358,
+        "Y": 199,
+        "Width": 899,
+        "Height": 901,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Dialogue.cs",
               "DocumentMoniker": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\Leviathain\\Script\\Dialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Leviathain\\Script\\Dialogue.cs",
               "ToolTip": "C:\\Users\\delan_5ovai3v\\OneDrive\\Documents\\GitHub\\Noir-game\\Noir Game\\Assets\\Leviathain\\Script\\Dialogue.cs",
               "RelativeToolTip": "Assets\\Leviathain\\Script\\Dialogue.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwAwAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T01:23:03.448Z"
+              "WhenOpened": "2024-04-25T01:23:03.448Z",
+              "EditorCaption": ""
             }
           ]
         }

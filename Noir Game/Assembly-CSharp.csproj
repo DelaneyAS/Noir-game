@@ -88,6 +88,7 @@
     <Compile Include="Assets\Leviathain\Script\DialogueRepeat.cs" />
     <Compile Include="Assets\_myAssets\scripts\Doors\PlayerRaycast.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\_myAssets\scripts\Ending\EndingCutscene.cs" />
     <Compile Include="Assets\_myAssets\scripts\ScriptableObjects\CollectedItems.cs" />
     <Compile Include="Assets\_myAssets\scripts\ScriptableObjects\Objects\Collection.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
