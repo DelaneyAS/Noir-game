@@ -73,10 +73,12 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\_myAssets\scripts\SoundEffects\StopSound.cs" />
     <Compile Include="Assets\_myAssets\scripts\Managers\ScoreManager.cs" />
     <Compile Include="Assets\_myAssets\scripts\ScriptableObjects\Objects\PlayerSpawn.cs" />
     <Compile Include="Assets\_myAssets\scripts\Managers\PauseManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\_myAssets\scripts\SoundEffects\SoundEffects.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -116,6 +118,7 @@
     <Compile Include="Assets\_myAssets\scripts\ScriptableObjects\Objects\SpinningObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\_myAssets\scripts\Title Screen\TitleScreen.cs" />
     <Compile Include="Assets\MyScripts\C#\ToggleObjectTrigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\_myAssets\scripts\Doors\ClickableDoors.cs" />

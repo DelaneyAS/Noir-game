@@ -1,24 +1,28 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class EndingCutscene : MonoBehaviour
 {
-    public GameObject videoPlayer;
+    public GameObject VideoPlayer;
 
     void Start()
     {
-        videoPlayer.SetActive(false);
+        GameObject camera = GameObject.Find("Main Camera");
+        VideoPlayer.playOnAwake = false;
     }
 
-    void OnTriggerEnter(Collider player)
+    void OnTriggerEnter(Collider Player)
     {
-        if (player.gameObject.CompareTag("Player")
-)       {
-            videoPlayer.SetActive(true);    
+        if (Player.gameObject.CompareTag("Player"))
+        {
+            VideoPlayer.gameObject.SetActive(true); VideoPlayer.Play();
         }
-        
-        
+
+
     }
-   
 }
+   
+
