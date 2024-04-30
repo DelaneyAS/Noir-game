@@ -7,9 +7,9 @@ using UnityEngine;
 public class PlayerRaycast : MonoBehaviour
 {
     // Start is called before the first frame update
-    readonly bool Test1 = ClickableDoors.target1interact;
-    readonly bool Test2 = ClickableDoors.target2interact;
-    readonly bool Test3 = ClickableDoors.target3interact;
+    //readonly bool Test1 = ClickableDoors.target1interact;
+    //readonly bool Test2 = ClickableDoors.target2interact;
+    //readonly bool Test3 = ClickableDoors.target3interact;
     
     public float _distance = 5f;
     public FirstPersonController player;
@@ -20,7 +20,7 @@ public class PlayerRaycast : MonoBehaviour
 
         Physics.Raycast(this.transform.position, transform.forward * _distance, out hit);
         {
-            if (hit.collider.CompareTag("Door") && Input.GetKeyDown(KeyCode.Mouse0) && Test1 == true && Test2 == true && Test3 == true)
+            if (hit.collider.CompareTag("Door") && Input.GetKeyDown(KeyCode.Mouse0)) //&& Test1 == true && Test2 == true && Test3 == true)
             {
                 UIController.Instance.FadeIN();
                 ClickableDoors door = hit.collider.GetComponent<ClickableDoors>();

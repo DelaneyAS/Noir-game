@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundEffects : MonoBehaviour
 {
     public AudioClip SoundtoPlay;
-    AudioSource audio;
+    new AudioSource audio;
     public bool alreadyplayed = false;
 
     void Start()
@@ -19,6 +19,10 @@ public class SoundEffects : MonoBehaviour
             audio.PlayOneShot(SoundtoPlay);
             alreadyplayed = true;
         }
+        if (other.tag == "Player")
+        {
+            audio.Stop();
+        }
     }
-
+   
 }

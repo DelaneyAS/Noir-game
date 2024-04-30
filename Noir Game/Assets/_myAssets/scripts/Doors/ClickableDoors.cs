@@ -9,10 +9,10 @@ public class ClickableDoors : MonoBehaviour
 {
     public GameObject Door;
     public Transform spawnPoint;
-    public static bool target1interact;
-    public static bool target2interact;
-    public static bool target3interact;
-    private bool canInteractWithDoor;
+   // public static bool target1interact;
+    //public static bool target2interact;
+    //public static bool target3interact;
+   // private bool canInteractWithDoor;
 
     // Start is called before the first frame update
     private FirstPersonController controller;
@@ -33,17 +33,17 @@ public class ClickableDoors : MonoBehaviour
     }
     void Update()
     {
-        if (target1interact && target2interact && target3interact)
+        //if (target1interact && target2interact && target3interact)
         {
             {
-                canInteractWithDoor = true;
+               // canInteractWithDoor = true;
             }
             
         }
     }
 
 
-    public void OnTriggerEnter(Collider other)
+   /* public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("target1interact"))
         {
@@ -57,7 +57,7 @@ public class ClickableDoors : MonoBehaviour
         if (other.CompareTag("target3interact"))
         {
             target3interact = true;
-        }
+        }*/
         
     }
 }

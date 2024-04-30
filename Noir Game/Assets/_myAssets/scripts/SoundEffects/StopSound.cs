@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class StopSound : MonoBehaviour
 {
-    public AudioClip SoundtoStop;
-    AudioSource audio;
+    public GameObject AudioObject;
 
     void Start()
     {
-        audio = GetComponent<AudioSource>();
+        AudioObject = GameObject.Find("Audio Source");
+    
+   
     }
 
     void OnTriggerEnter(Collider other)
     {
-        audio.Stop();
-        
+        // If the entering collider is the player...
+        if (other.gameObject == player)
+        {
+            // ... the player is in range.
+            playerInRange = true;
+        }
     }
 }
