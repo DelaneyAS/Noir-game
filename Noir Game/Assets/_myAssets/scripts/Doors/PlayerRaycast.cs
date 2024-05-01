@@ -12,7 +12,7 @@ public class PlayerRaycast : MonoBehaviour
     //readonly bool Test3 = ClickableDoors.target3interact;
     
     public float _distance = 5f;
-    public FirstPersonController player;
+    public FirstPersonController player;    
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -22,9 +22,10 @@ public class PlayerRaycast : MonoBehaviour
         {
             if (hit.collider.CompareTag("Door") && Input.GetKeyDown(KeyCode.Mouse0)) //&& Test1 == true && Test2 == true && Test3 == true)
             {
-                UIController.Instance.FadeIN();
+                Debug.LogError("I OPENED A DOOR");
+               
                 ClickableDoors door = hit.collider.GetComponent<ClickableDoors>();
-                player.enabled = false;
+                //player.enabled = false;
                 door.MovePlayer(player);
             }
         }

@@ -14,6 +14,8 @@ public class Dialogue : MonoBehaviour
 
     private int index;
 
+    public ClickableDoors connectedDoor;
+
     void Start()
     {
         activator.SetActive(true);
@@ -30,6 +32,17 @@ public class Dialogue : MonoBehaviour
         textComponent.text = string.Empty;
         StartDialogue();
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            panel.SetActive(false);
+
+            textComponent.text = string.Empty;
+        }
+    }
+
 
     void Update()
     {
@@ -52,6 +65,11 @@ public class Dialogue : MonoBehaviour
 
     void StartDialogue()
     {
+        if(connectedDoor != null)
+        {
+            connectedDoor.SetInteractableDoor();
+            connectedDoor = null;
+        }
         index = 0;
         StartCoroutine(TypeLine());
     }

@@ -17,14 +17,34 @@ public class ClickableDoors : MonoBehaviour
     // Start is called before the first frame update
     private FirstPersonController controller;
 
- 
+
+    public bool isInteractableDoor = true;
+
+    private int counter = 0;
+    public int TriggerValue = 3;
     public void MovePlayer(FirstPersonController Player)
     {
-        Player.transform.position = spawnPoint.position;
-        controller = Player;
-        Invoke("FadeOUT", 1f);
+        if (isInteractableDoor == true)
+        {
+            UIController.Instance.FadeIN();
+            Player.transform.position = spawnPoint.position;
+            controller = Player;
+            Invoke("FadeOUT", 1f);
+        }
     }
 
+
+    public void SetInteractableDoor()
+    {
+        counter++;
+        if(counter >= TriggerValue)
+        {
+            if(isInteractableDoor == false) 
+            {
+                isInteractableDoor = true;
+            }
+        }
+    }
 
     public void FadeOUT()
     {

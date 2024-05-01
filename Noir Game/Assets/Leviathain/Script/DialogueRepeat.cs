@@ -13,6 +13,8 @@ public class DialogueRepeat : MonoBehaviour
 
     private int index;
 
+    public ClickableDoors connectedDoor;
+
     void Start()
     {
         activator.SetActive(true);
@@ -28,6 +30,16 @@ public class DialogueRepeat : MonoBehaviour
 
         textComponent.text = string.Empty;
         StartDialogueRepeat();
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            panel.SetActive(false);
+
+            textComponent.text = string.Empty;
+        }
     }
 
     void Update()
@@ -51,6 +63,12 @@ public class DialogueRepeat : MonoBehaviour
 
     void StartDialogueRepeat()
     {
+        if (connectedDoor != null)
+        {
+            connectedDoor.SetInteractableDoor();
+            connectedDoor = null;
+        }
+
         index = 0;
         StartCoroutine(TypeLine());
     }
@@ -79,3 +97,4 @@ public class DialogueRepeat : MonoBehaviour
         }
     }
 }
+
