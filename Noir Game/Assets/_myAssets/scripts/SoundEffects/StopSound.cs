@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,10 +16,10 @@ public class StopSound : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // If the entering collider is the player...
-        if (other.gameObject == player)
+        if (other.tag == "Player")
         {
             // ... the player is in range.
-            playerInRange = true;
+            AudioObject.Stop();
         }
     }
-}
+}*/

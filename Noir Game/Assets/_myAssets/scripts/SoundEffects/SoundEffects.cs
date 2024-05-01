@@ -11,6 +11,7 @@ public class SoundEffects : MonoBehaviour
     void Start()
     {
         audio = GetComponent<AudioSource>();
+
     }
     void OnTriggerEnter(Collider other)
     {

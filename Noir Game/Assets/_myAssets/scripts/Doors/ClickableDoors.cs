@@ -57,7 +57,7 @@ public class ClickableDoors : MonoBehaviour
         if (other.CompareTag("target3interact"))
         {
             target3interact = true;
-        }*/
+        }
         
-    }
+    }*/
 }

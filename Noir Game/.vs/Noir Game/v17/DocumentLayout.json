@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\_myassets\\scripts\\soundeffects\\stopsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\soundeffects\\stopsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|c:\\users\\studentorinstructor\\desktop\\ga255\\group project\\noir-game\\noir game\\assets\\_myassets\\scripts\\soundeffects\\soundeffects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\soundeffects\\soundeffects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\_myassets\\scripts\\enemy\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\enemy\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\_myassets\\scripts\\doors\\clickabledoors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\doors\\clickabledoors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\_myassets\\scripts\\soundeffects\\stopsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\soundeffects\\stopsound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\_myassets\\scripts\\enemy\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\enemy\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\_myassets\\scripts\\title screen\\titlescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\_myassets\\scripts\\doors\\playerraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\doors\\playerraycast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\_myassets\\scripts\\doors\\clickabledoors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|solutionrelative:assets\\_myassets\\scripts\\doors\\clickabledoors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EB70263-1C3F-E2D5-1CC4-521A9DC52C16}|Assembly-CSharp.csproj|C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\assets\\_myassets\\scripts\\ending\\endingcutscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EnemyAttack.cs",
               "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Enemy\\EnemyAttack.cs",
               "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\Enemy\\EnemyAttack.cs",
@@ -70,15 +70,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "StopSound.cs",
               "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\SoundEffects\\StopSound.cs",
               "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\SoundEffects\\StopSound.cs",
               "ToolTip": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\SoundEffects\\StopSound.cs",
               "RelativeToolTip": "Assets\\_myAssets\\scripts\\SoundEffects\\StopSound.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T00:33:54.553Z"
+              "WhenOpened": "2024-04-29T00:33:54.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerRaycast.cs",
               "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Doors\\PlayerRaycast.cs",
               "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\Doors\\PlayerRaycast.cs",
@@ -118,15 +119,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ClickableDoors.cs",
               "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Doors\\ClickableDoors.cs",
               "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\Doors\\ClickableDoors.cs",
               "ToolTip": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Doors\\ClickableDoors.cs",
               "RelativeToolTip": "Assets\\_myAssets\\scripts\\Doors\\ClickableDoors.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwA4AAAAFAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAIwD0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T03:25:03.048Z"
+              "WhenOpened": "2024-04-24T03:25:03.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -142,13 +144,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SoundEffects.cs",
               "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\SoundEffects\\SoundEffects.cs",
               "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\SoundEffects\\SoundEffects.cs",
               "ToolTip": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\SoundEffects\\SoundEffects.cs",
               "RelativeToolTip": "Assets\\_myAssets\\scripts\\SoundEffects\\SoundEffects.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T00:21:33.849Z",
               "EditorCaption": ""
@@ -179,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TitleScreen.cs",
               "DocumentMoniker": "C:\\Users\\StudentorInstructor\\Desktop\\GA255\\Group Project\\Noir-game\\Noir Game\\Assets\\_myAssets\\scripts\\Title Screen\\TitleScreen.cs",
               "RelativeDocumentMoniker": "Assets\\_myAssets\\scripts\\Title Screen\\TitleScreen.cs",
