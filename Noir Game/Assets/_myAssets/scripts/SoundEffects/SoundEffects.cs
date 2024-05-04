@@ -15,15 +15,12 @@ public class SoundEffects : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if(!alreadyplayed)
+        if (!alreadyplayed)
         {
             audio.PlayOneShot(SoundtoPlay);
             alreadyplayed = true;
         }
-        if (other.tag == "Player")
-        {
-            audio.Stop();
-        }
+       
     }
    
 }
