@@ -193,6 +193,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (8)
@@ -471,6 +475,112 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 180, z: 177.436}
+--- !u!1 &17308896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17308900}
+  - component: {fileID: 17308899}
+  - component: {fileID: 17308898}
+  - component: {fileID: 17308897}
+  m_Layer: 0
+  m_Name: Plane (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &17308897
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17308896}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &17308898
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17308896}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 70e137d8dc215de4e9047f964f0c15d1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &17308899
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17308896}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &17308900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17308896}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.9998895, z: -0, w: 0.014869412}
+  m_LocalPosition: {x: 4.077, y: 0.079, z: -12.763}
+  m_LocalScale: {x: 0.08257342, y: 0.082573436, z: 0.082573436}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -178.296, z: 0}
 --- !u!1 &18400460
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,7 +734,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (7)
@@ -1050,6 +1160,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (2)
@@ -1362,6 +1476,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -178.801
       objectReference: {fileID: 0}
+    - target: {fileID: -3513369361077785382, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8815a75205443db4ea319b1de38970d5, type: 2}
+    - target: {fileID: -3477821731311062464, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+    - target: {fileID: -3295789893448835665, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8815a75205443db4ea319b1de38970d5, type: 2}
     - target: {fileID: -3286990999528776578, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.299093
@@ -1438,6 +1564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dinfor2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3662439406666726453, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b29cd6c75feb75e498b339a2bb4c8ef0, type: 2}
     - target: {fileID: 4629439662121796819, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4011239
@@ -1593,108 +1723,111 @@ PrefabInstance:
       addedObject: {fileID: 1217141816}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
       insertIndex: 5
+      addedObject: {fileID: 1801962988}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
+      insertIndex: 6
       addedObject: {fileID: 1446711949}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 8
+      insertIndex: 9
       addedObject: {fileID: 69368252}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 9
+      insertIndex: 10
       addedObject: {fileID: 368572871}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 11
+      insertIndex: 12
       addedObject: {fileID: 1818471470}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 12
+      insertIndex: 13
       addedObject: {fileID: 1337411051}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 13
+      insertIndex: 14
       addedObject: {fileID: 372309654}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 14
+      insertIndex: 15
       addedObject: {fileID: 1682159043}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 15
+      insertIndex: 16
       addedObject: {fileID: 1447999287}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 16
+      insertIndex: 17
       addedObject: {fileID: 1507854287}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 17
+      insertIndex: 18
       addedObject: {fileID: 2062618138}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 18
+      insertIndex: 19
       addedObject: {fileID: 151480075}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 19
+      insertIndex: 20
       addedObject: {fileID: 821553887}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 20
+      insertIndex: 21
       addedObject: {fileID: 500686014}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 21
+      insertIndex: 22
       addedObject: {fileID: 728440287}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 22
+      insertIndex: 23
       addedObject: {fileID: 1910051353}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 23
+      insertIndex: 24
       addedObject: {fileID: 2013962482}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 24
+      insertIndex: 25
       addedObject: {fileID: 1350356673}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 25
+      insertIndex: 26
       addedObject: {fileID: 1486899477}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 26
+      insertIndex: 27
       addedObject: {fileID: 958799760}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 27
+      insertIndex: 28
       addedObject: {fileID: 1485707781}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 28
+      insertIndex: 29
       addedObject: {fileID: 202414233}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 29
+      insertIndex: 30
       addedObject: {fileID: 1578630666}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 30
+      insertIndex: 31
       addedObject: {fileID: 2025008990}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 31
+      insertIndex: 32
       addedObject: {fileID: 1933894088}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 32
+      insertIndex: 33
       addedObject: {fileID: 1708585084}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 33
+      insertIndex: 34
       addedObject: {fileID: 929184783}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 34
+      insertIndex: 35
       addedObject: {fileID: 1562041567}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 35
+      insertIndex: 36
       addedObject: {fileID: 1359540624}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 36
+      insertIndex: 37
       addedObject: {fileID: 1783039030}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 37
+      insertIndex: 38
       addedObject: {fileID: 1062910235}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 38
+      insertIndex: 39
       addedObject: {fileID: 185659850}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 39
+      insertIndex: 40
       addedObject: {fileID: 546532591}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 40
+      insertIndex: 41
       addedObject: {fileID: 1004389047}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 41
+      insertIndex: 42
       addedObject: {fileID: 608307079}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
-      insertIndex: 42
+      insertIndex: 43
       addedObject: {fileID: 723521797}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
@@ -1751,6 +1884,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (13)
@@ -2000,7 +2137,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor
@@ -3363,6 +3500,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling (7)
@@ -3788,7 +3929,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (4)
@@ -3917,6 +4058,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (19)
@@ -4285,6 +4430,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e1fad3fc22a93c4d863025e8a1b271e, type: 2}
     - target: {fileID: 919132149155446097, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
       propertyPath: m_Name
       value: door frame (4)
@@ -4427,7 +4576,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (7)
@@ -4566,7 +4715,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (5)
@@ -5153,6 +5302,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling
@@ -5374,6 +5527,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling
@@ -6144,6 +6301,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e1fad3fc22a93c4d863025e8a1b271e, type: 2}
     - target: {fileID: 919132149155446097, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
       propertyPath: m_Name
       value: door frame (1)
@@ -6416,7 +6577,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor (7)
@@ -6477,6 +6638,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (31)
@@ -6920,7 +7085,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (3)
@@ -6985,6 +7150,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor (6)
@@ -7045,6 +7214,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d704af5962d9fd8409dd66958eda7d93, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: d704af5962d9fd8409dd66958eda7d93, type: 3}
       propertyPath: m_Name
       value: basement door frame
@@ -7169,6 +7342,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (13)
@@ -7359,6 +7536,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (4)
@@ -7578,6 +7759,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (38)
@@ -7911,7 +8096,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (8)
@@ -8599,6 +8784,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling (9)
@@ -8898,6 +9087,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a88f3b1160fcc60448d976e1978ba9c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5a4050ec6657ec4dbe51bfbd3316a58, type: 2}
     - target: {fileID: 919132149155446097, guid: a88f3b1160fcc60448d976e1978ba9c1, type: 3}
       propertyPath: m_Name
       value: Burke_Brown_PIoffice (1) (6)
@@ -9035,7 +9228,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5cea9e0284761b349be4868f8512f7d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.943
+      value: 7.236
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5cea9e0284761b349be4868f8512f7d5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9043,7 +9236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5cea9e0284761b349be4868f8512f7d5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.297
+      value: -1.138
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5cea9e0284761b349be4868f8512f7d5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9871,6 +10064,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling (1)
@@ -9931,7 +10128,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (12)
@@ -9996,6 +10193,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (6)
@@ -10410,7 +10611,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9a4d12e112e304540ac36eef7e7146a9, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor (2)
@@ -10474,7 +10675,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (10)
@@ -10879,6 +11080,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling (5)
@@ -10936,6 +11141,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (6)
@@ -11227,6 +11436,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor (12)
@@ -11376,6 +11589,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (24)
@@ -11822,66 +12039,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7cd45d2718963c4a804594abaddf329, type: 3}
---- !u!1001 &485686699
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.7299995
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.06889987
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -12.290001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      propertyPath: m_Name
-      value: basement floor (11)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1685976232}
-  m_SourcePrefab: {fileID: 100100000, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
 --- !u!1001 &486328417
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11930,6 +12087,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (30)
@@ -12131,6 +12292,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e1fad3fc22a93c4d863025e8a1b271e, type: 2}
     - target: {fileID: 919132149155446097, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
       propertyPath: m_Name
       value: door frame (7)
@@ -12553,7 +12718,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (11)
@@ -13229,7 +13394,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (2)
@@ -13384,6 +13549,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (17)
@@ -13478,7 +13647,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor (4)
@@ -13593,6 +13762,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (1)
@@ -13678,7 +13851,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (15)
@@ -13866,13 +14039,15 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
+  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
+  m_UseCustomTrailVertexStreams: 0
+  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -18777,7 +18952,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (6)
@@ -18972,7 +19147,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (1)
@@ -20022,6 +20197,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e1fad3fc22a93c4d863025e8a1b271e, type: 2}
     - target: {fileID: 919132149155446097, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
       propertyPath: m_Name
       value: door frame (2)
@@ -20200,7 +20379,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (9)
@@ -20265,6 +20444,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (29)
@@ -20451,6 +20634,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (32)
@@ -20518,7 +20705,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor (8)
@@ -20609,7 +20796,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (8)
@@ -20678,6 +20865,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (5)
@@ -21160,6 +21351,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (33)
@@ -21656,6 +21851,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (30)
@@ -21744,6 +21943,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 409b4fb32db0f9a448f4613b3d5b52c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 409b4fb32db0f9a448f4613b3d5b52c1, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: adf327d3fc1e6e54db1b533f0b5fea22, type: 2}
@@ -21811,7 +22014,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (1)
@@ -23069,6 +23272,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (36)
@@ -23160,6 +23367,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (32)
@@ -23217,6 +23428,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (28)
@@ -23602,7 +23817,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (11)
@@ -23823,6 +24038,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: d729b19f4fb1d8f408601e844ec5a0eb, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e9892508895eb8c4fa5755f5bc924181, type: 2}
     - target: {fileID: 919132149155446097, guid: d729b19f4fb1d8f408601e844ec5a0eb, type: 3}
       propertyPath: m_Name
       value: hallway door frame 1 (1)
@@ -24208,6 +24427,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (22)
@@ -24349,6 +24572,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (3)
@@ -24979,6 +25206,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (4)
@@ -25294,6 +25525,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: d729b19f4fb1d8f408601e844ec5a0eb, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e9892508895eb8c4fa5755f5bc924181, type: 2}
     - target: {fileID: 919132149155446097, guid: d729b19f4fb1d8f408601e844ec5a0eb, type: 3}
       propertyPath: m_Name
       value: hallway door frame 1 (2)
@@ -25355,6 +25590,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (17)
@@ -25864,6 +26103,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling (4)
@@ -25943,6 +26186,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling (12)
@@ -26113,6 +26360,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (34)
@@ -26176,7 +26427,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (14)
@@ -26518,7 +26769,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (5)
@@ -26864,6 +27115,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (22)
@@ -27259,6 +27514,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (23)
@@ -28079,7 +28338,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor (1)
@@ -28143,6 +28402,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (26)
@@ -28726,7 +28989,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4d35f90c0a7098745a48f2b526efbfd5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d35f90c0a7098745a48f2b526efbfd5, type: 3}
       propertyPath: m_Name
       value: living floor piece
@@ -29235,6 +29498,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (10)
@@ -29500,6 +29767,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (33)
@@ -29753,6 +30024,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling (6)
@@ -30689,6 +30964,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (27)
@@ -30845,6 +31124,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (35)
@@ -30913,6 +31196,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (1)
@@ -31202,6 +31489,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (2)
@@ -31269,6 +31560,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e1fad3fc22a93c4d863025e8a1b271e, type: 2}
     - target: {fileID: 919132149155446097, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
       propertyPath: m_Name
       value: door frame (3)
@@ -31358,7 +31653,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4d35f90c0a7098745a48f2b526efbfd5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d35f90c0a7098745a48f2b526efbfd5, type: 3}
       propertyPath: m_Name
       value: living floor piece (1)
@@ -31450,6 +31745,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (18)
@@ -31716,7 +32015,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (22)
@@ -31789,7 +32088,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8815a75205443db4ea319b1de38970d5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32117,6 +32416,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (14)
@@ -32564,7 +32867,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor (3)
@@ -32712,6 +33015,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (9)
@@ -32825,6 +33132,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling (3)
@@ -33213,7 +33524,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (13)
@@ -33544,6 +33855,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (3)
@@ -33827,7 +34142,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (20)
@@ -34166,6 +34481,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (5)
@@ -34781,7 +35100,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor
@@ -35053,6 +35372,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (25)
@@ -35412,13 +35735,15 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
+  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
+  m_UseCustomTrailVertexStreams: 0
+  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -40884,6 +41209,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling (2)
@@ -41205,7 +41534,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor (5)
@@ -41269,7 +41598,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (6)
@@ -41339,7 +41668,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8815a75205443db4ea319b1de38970d5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -41503,7 +41832,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (4)
@@ -41874,6 +42203,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling (8)
@@ -42033,6 +42366,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor (10)
@@ -42382,6 +42719,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a88f3b1160fcc60448d976e1978ba9c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5a4050ec6657ec4dbe51bfbd3316a58, type: 2}
     - target: {fileID: 919132149155446097, guid: a88f3b1160fcc60448d976e1978ba9c1, type: 3}
       propertyPath: m_Name
       value: Burke_Brown_PIoffice (1) (4)
@@ -43626,6 +43967,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (28)
@@ -43869,6 +44214,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (23)
@@ -44265,6 +44614,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (29)
@@ -44413,6 +44766,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
       propertyPath: m_Name
       value: basement floor (9)
@@ -44473,6 +44830,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (21)
@@ -44657,6 +45018,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a88f3b1160fcc60448d976e1978ba9c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5a4050ec6657ec4dbe51bfbd3316a58, type: 2}
     - target: {fileID: 919132149155446097, guid: a88f3b1160fcc60448d976e1978ba9c1, type: 3}
       propertyPath: m_Name
       value: Burke_Brown_PIoffice (1) (5)
@@ -44977,6 +45342,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: d729b19f4fb1d8f408601e844ec5a0eb, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e9892508895eb8c4fa5755f5bc924181, type: 2}
     - target: {fileID: 919132149155446097, guid: d729b19f4fb1d8f408601e844ec5a0eb, type: 3}
       propertyPath: m_Name
       value: hallway door frame 1
@@ -45156,6 +45525,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (15)
@@ -45479,6 +45852,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (24)
@@ -45999,6 +46376,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (21)
@@ -46187,6 +46568,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (37)
@@ -46433,6 +46818,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (16)
@@ -46490,6 +46879,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5f2e8141355e9da4899a7d47966ca57c, type: 3}
       propertyPath: m_Name
       value: basement ceiling (14)
@@ -46550,7 +46943,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (3)
@@ -46782,6 +47175,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (34)
@@ -46939,6 +47336,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8a1bf2409160514468950c785646e295, type: 2}
+    - target: {fileID: 6509181844674584125, guid: b2ad5b127e6afa8469366edd8232071c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 56307c0586759a14790bc782f1622cc4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47201,7 +47602,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (21)
@@ -47272,7 +47673,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2161445c8d562c74c8e345add37bbce5, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (2)
@@ -47444,33 +47845,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 677021047}
   m_SourcePrefab: {fileID: 100100000, guid: 409b4fb32db0f9a448f4613b3d5b52c1, type: 3}
---- !u!1 &1685976228 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
-  m_PrefabInstance: {fileID: 485686699}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1685976232
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685976228}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3822247309040838107, guid: dc347473037da144096f3eb02d85cc1f, type: 3}
 --- !u!1 &1686193332 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 51fbaa6ecb3e72a4a80f381393d6f0c7, type: 3}
@@ -48275,6 +48649,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 507415624077d3e45badf1c3682ba821, type: 2}
     - target: {fileID: 919132149155446097, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
       propertyPath: m_Name
       value: door frame
@@ -48618,6 +48996,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (39)
@@ -48716,7 +49098,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4d35f90c0a7098745a48f2b526efbfd5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d35f90c0a7098745a48f2b526efbfd5, type: 3}
       propertyPath: m_Name
       value: living floor piece (2)
@@ -48869,6 +49251,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (7)
@@ -49643,6 +50029,89 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8b19fdee24459041be36a9bd001297a, type: 3}
+--- !u!1 &1801962987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1801962988}
+  - component: {fileID: 1801962990}
+  - component: {fileID: 1801962989}
+  m_Layer: 0
+  m_Name: Box024 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1801962988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801962987}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.33066756, y: -0.6250273, z: -0.6250272, w: -0.33066735}
+  m_LocalPosition: {x: 26.929, y: -0.722, z: -10.54}
+  m_LocalScale: {x: 2.4120526, y: 2.4120526, z: 2.4120526}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 57869536}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -235.762}
+--- !u!23 &1801962989
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801962987}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 8815a75205443db4ea319b1de38970d5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1801962990
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801962987}
+  m_Mesh: {fileID: 106541212177282163, guid: 7e6ff5ff5219ec1469d91f0159cbc4a6, type: 3}
 --- !u!1001 &1805632749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50252,6 +50721,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a88f3b1160fcc60448d976e1978ba9c1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a5a4050ec6657ec4dbe51bfbd3316a58, type: 2}
     - target: {fileID: 919132149155446097, guid: a88f3b1160fcc60448d976e1978ba9c1, type: 3}
       propertyPath: m_Name
       value: Burke_Brown_PIoffice (1) (3)
@@ -51146,6 +51619,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (16)
@@ -51370,6 +51847,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (7)
@@ -51437,7 +51918,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor
@@ -51668,7 +52149,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: 1cf0363d6baec8e4e8272dbf52c0a803, type: 3}
       propertyPath: m_Name
       value: hallway floor (9)
@@ -51899,6 +52380,112 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2954858793080512207, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+--- !u!1 &1908011901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1908011905}
+  - component: {fileID: 1908011904}
+  - component: {fileID: 1908011903}
+  - component: {fileID: 1908011902}
+  m_Layer: 0
+  m_Name: Plane (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1908011902
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908011901}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1908011903
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908011901}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 70e137d8dc215de4e9047f964f0c15d1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1908011904
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908011901}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1908011905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908011901}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.87329787, z: -0, w: 0.48718673}
+  m_LocalPosition: {x: 6.1633, y: 0.3525, z: -13.0883}
+  m_LocalScale: {x: 0.028774481, y: 0.028774487, z: 0.028774487}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -121.688, z: 0}
 --- !u!1 &1908889927
 GameObject:
   m_ObjectHideFlags: 0
@@ -53534,6 +54121,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (11)
@@ -53900,6 +54491,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (9)
@@ -54364,7 +54959,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (10)
@@ -54432,7 +55027,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+      objectReference: {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
     - target: {fileID: 919132149155446097, guid: d60a8bd8e45503045bfde7777a728285, type: 3}
       propertyPath: m_Name
       value: Living Floor (16)
@@ -54709,6 +55304,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (12)
@@ -56004,6 +56603,112 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -178.741, y: 0, z: 0}
+--- !u!1 &2071091306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2071091310}
+  - component: {fileID: 2071091309}
+  - component: {fileID: 2071091308}
+  - component: {fileID: 2071091307}
+  m_Layer: 0
+  m_Name: Plane (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &2071091307
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071091306}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &2071091308
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071091306}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 70e137d8dc215de4e9047f964f0c15d1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2071091309
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071091306}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2071091310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071091306}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.87329787, z: -0, w: 0.48718673}
+  m_LocalPosition: {x: 4.736, y: 0.079, z: -13.551}
+  m_LocalScale: {x: 0.08257342, y: 0.082573436, z: 0.082573436}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -121.688, z: 0}
 --- !u!1001 &2072287242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56113,6 +56818,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (20)
@@ -56493,6 +57202,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 5744391c34bb8a747a8351c6f2c16c02, type: 3}
       propertyPath: m_Name
       value: ceiling (31)
@@ -56557,6 +57270,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
     - target: {fileID: 919132149155446097, guid: 7b007a7193c612d4bbb8d1e347b4c08c, type: 3}
       propertyPath: m_Name
       value: basement wall (25)
@@ -57031,6 +57748,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9e1fad3fc22a93c4d863025e8a1b271e, type: 2}
     - target: {fileID: 919132149155446097, guid: 81b8760db17f19348a08be5b947deca0, type: 3}
       propertyPath: m_Name
       value: door frame (5)
@@ -61999,13 +62720,15 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
+  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
+  m_UseCustomTrailVertexStreams: 0
+  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -63559,7 +64282,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+  - {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63643,8 +64366,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3661639628750336703, guid: d9485c675e88ab049b42750763c3a1fd, type: 3}
-  - {fileID: 239378781582670930, guid: d9485c675e88ab049b42750763c3a1fd, type: 3}
+  - {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+  - {fileID: 2100000, guid: 6f6bdeb4fcca60542aa863f350f7cccb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63686,7 +64409,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63728,8 +64451,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3661639628750336703, guid: 767b4a6e52c953e41a865c0299537e56, type: 3}
-  - {fileID: 2100000, guid: adf327d3fc1e6e54db1b533f0b5fea22, type: 2}
+  - {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+  - {fileID: 2100000, guid: 4cefc2a0e99292c4295ec164ff8fa79d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63771,7 +64494,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+  - {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63813,7 +64536,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63855,7 +64578,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+  - {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63897,8 +64620,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3661639628750336703, guid: 767b4a6e52c953e41a865c0299537e56, type: 3}
-  - {fileID: 2100000, guid: adf327d3fc1e6e54db1b533f0b5fea22, type: 2}
+  - {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+  - {fileID: 2100000, guid: 4cefc2a0e99292c4295ec164ff8fa79d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63940,7 +64663,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64066,8 +64789,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3661639628750336703, guid: 767b4a6e52c953e41a865c0299537e56, type: 3}
-  - {fileID: 2100000, guid: adf327d3fc1e6e54db1b533f0b5fea22, type: 2}
+  - {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+  - {fileID: 2100000, guid: 4cefc2a0e99292c4295ec164ff8fa79d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64109,7 +64832,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64235,8 +64958,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3661639628750336703, guid: 767b4a6e52c953e41a865c0299537e56, type: 3}
-  - {fileID: 2100000, guid: adf327d3fc1e6e54db1b533f0b5fea22, type: 2}
+  - {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+  - {fileID: 2100000, guid: 4cefc2a0e99292c4295ec164ff8fa79d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64405,8 +65128,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3661639628750336703, guid: 767b4a6e52c953e41a865c0299537e56, type: 3}
-  - {fileID: 2100000, guid: adf327d3fc1e6e54db1b533f0b5fea22, type: 2}
+  - {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+  - {fileID: 2100000, guid: 4cefc2a0e99292c4295ec164ff8fa79d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64448,8 +65171,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3661639628750336703, guid: 767b4a6e52c953e41a865c0299537e56, type: 3}
-  - {fileID: 2100000, guid: adf327d3fc1e6e54db1b533f0b5fea22, type: 2}
+  - {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+  - {fileID: 2100000, guid: 4cefc2a0e99292c4295ec164ff8fa79d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64491,7 +65214,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+  - {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64533,8 +65256,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3661639628750336703, guid: 767b4a6e52c953e41a865c0299537e56, type: 3}
-  - {fileID: 2100000, guid: adf327d3fc1e6e54db1b533f0b5fea22, type: 2}
+  - {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+  - {fileID: 2100000, guid: 4cefc2a0e99292c4295ec164ff8fa79d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64576,7 +65299,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64618,7 +65341,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+  - {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64702,8 +65425,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3661639628750336703, guid: 767b4a6e52c953e41a865c0299537e56, type: 3}
-  - {fileID: 2100000, guid: adf327d3fc1e6e54db1b533f0b5fea22, type: 2}
+  - {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+  - {fileID: 2100000, guid: 4cefc2a0e99292c4295ec164ff8fa79d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64829,8 +65552,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ecf37cbe395e37745baa3e7424b12204, type: 2}
-  - {fileID: 2100000, guid: adf327d3fc1e6e54db1b533f0b5fea22, type: 2}
+  - {fileID: 2100000, guid: 57f5356de3b36f945a23d9bf7d970cc6, type: 2}
+  - {fileID: 2100000, guid: 4cefc2a0e99292c4295ec164ff8fa79d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64872,7 +65595,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 4a149dc19cdf76f41add94219e5a14f3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -64914,7 +65637,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 006b2af32eaeae041aadb3e48b4d0414, type: 2}
+  - {fileID: 2100000, guid: e069dbf66df894a49850a23a83c37934, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -66252,7 +66975,6 @@ SceneRoots:
   - {fileID: 600484713}
   - {fileID: 1543773162}
   - {fileID: 1463330408}
-  - {fileID: 485686699}
   - {fileID: 447776698}
   - {fileID: 508456783}
   - {fileID: 1172760637}
@@ -66271,6 +66993,9 @@ SceneRoots:
   - {fileID: 874223577}
   - {fileID: 2127260176}
   - {fileID: 1472200721}
+  - {fileID: 1908011905}
+  - {fileID: 2071091310}
+  - {fileID: 17308900}
   - {fileID: 582724146}
   - {fileID: 1307428669}
   - {fileID: 1807560752}
